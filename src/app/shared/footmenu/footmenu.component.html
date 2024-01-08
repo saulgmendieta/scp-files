@@ -1,0 +1,13 @@
+<div id="footmenu">
+    <div id="user-name"> Guest </div>
+    <div id="curr-date"> {{currentTime}} </div>
+    <div *ngFor="let item of bottomMenuItems">
+        <a [routerLink]="item.url" *ngIf="item.observable">
+            <div class="{{item.class}}" id="{{item.id}}"> 
+                <img src="{{item.imgsrc}}" style="height: 100%; margin-right: 2px;">
+                {{item.title}}
+            </div>
+        </a>
+    </div>
+    
+</div>

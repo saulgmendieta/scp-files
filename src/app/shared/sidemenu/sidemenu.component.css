@@ -1,0 +1,52 @@
+#sidemenu{
+    position: absolute;
+    top: 4%;
+    left: 0%;
+    width: 12%;
+    height: 90%;
+    background-color: white;
+}
+
+.section-menu{
+    position: absolute;
+    left: 0%;
+    width: 100%;
+    height: 11.5%;
+    color: white;
+    background-color: #0088d6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.5vh;
+}
+
+.active{
+    background-color: #002f4a;
+}
+
+#general-section{
+    top: 0.5%;
+}
+
+#pretreatment-section{
+    top: 13%;
+}
+#bioreactors-section{
+    top: 25.5%;
+}
+#decanting-section{
+    top: 38%;
+}
+#mudtreatment-section{
+    top: 50.5%;
+}
+#processexit-section{
+    top: 63%;
+}
+#desinfection-section{
+    top: 75.5%;
+}
+#motorcontrol-section{
+    top: 88%;
+}

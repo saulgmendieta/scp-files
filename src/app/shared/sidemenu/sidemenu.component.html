@@ -1,0 +1,11 @@
+<div id="sidemenu">
+
+    <div *ngFor="let item of menuItems">
+        <a [routerLink]="item.url">
+            <div class={{item.class}} id={{item.id}}>
+                <img src={{item.imgsrc}} style="height: 70%;margin-top: 8%;">
+                {{item.title}}
+            </div>
+        </a>
+    </div>
+</div>
